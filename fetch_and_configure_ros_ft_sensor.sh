@@ -25,4 +25,4 @@ rm -rf ./src/etherdaq_ros/.git
 
 #make sure the new directory isnt pushed to git 
 cd ..
-echo $dir_name >> .gitignore
+echo $dir_name/ >> .gitignore
