@@ -1,4 +1,4 @@
-# UR3-ROS
+# UR3 ROS
 
 [```fetch_and_configure_ros_ft_sensor.sh```](https://github.com/rushadantia/UR3-ROS/blob/master/fetch_and_configure_ros_ft_sensor.sh)
 
