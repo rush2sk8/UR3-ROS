@@ -1,6 +1,6 @@
 #!/bin/bash
 git add .  
-if [ $# -eq 0]
+if [ $# -eq 0 ]
   then
     read -p "Commit description: " desc 
     git commit -m "$desc"
