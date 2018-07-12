@@ -21,7 +21,7 @@ touch run.sh
 chmod +x run.sh
 echo "$(tput setaf 2)Enter the Robot's IP Address:$(tput sgr0)"
 read -p "" robot_ip
-echo "roslaunch src/universal_robot/ur_modern_driver/launch/ur3_bringup.launch robot_ip:=$robot_ip" >> run.sh
+echo "source devel/setup.bash;roslaunch src/universal_robot/ur_modern_driver/launch/ur3_bringup.launch robot_ip:=$robot_ip" >> run.sh
 
 #dont add it to git
 cd ..
