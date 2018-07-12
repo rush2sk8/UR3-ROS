@@ -52,3 +52,9 @@ CATKIN_IGNORE
 x
 ft_sensor
 heloow/
+ftsensor_ros/
+ros_ft/
+test/
+test1/
+t/
+f/
