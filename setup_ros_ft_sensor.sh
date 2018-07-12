@@ -10,6 +10,7 @@ cd $dir_name/src
 catkin_init_workspace
 git clone https://github.com/OptoForce/etherdaq_ros.git
 cd ..
+rosdep install --from-paths src --ignore-src -r -y
 catkin_make
 source devel/setup.bash
 
