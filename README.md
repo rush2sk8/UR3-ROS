@@ -2,7 +2,7 @@
 
 [```setup_ros_ft_sensor.sh```](https://github.com/rushadantia/UR3-ROS/blob/master/setup_ros_ft_sensor.sh)
 
-This script creates a catkin workspace that is configured and ready to run the [etherdaq_ros](https://github.com/OptoForce/etherdaq_ros.git) module. It also modifies the ```demo.launch``` file so that it uses the ip of YOUR robot. 
+This script creates a catkin workspace that is configured and ready to run [my fork](https://github.com/rushadantia/etherdaq_ros.git) of the [etherdaq_ros](https://github.com/OptoForce/etherdaq_ros.git) module. It also modifies the ```demo.launch``` file so that it uses the ip of YOUR robot. 
 
 
 [```setup_ros_ur.sh```](https://github.com/rushadantia/UR3-ROS/blob/master/setup_ros_ur.sh)
