@@ -8,7 +8,7 @@ mkdir $dir_name/src -p
 #setup catkin workspace
 cd $dir_name/src
 catkin_init_workspace
-git clone https://github.com/OptoForce/etherdaq_ros.git
+git clone  https://github.com/rushadantia/etherdaq_ros
 cd ..
 rosdep install --from-paths src --ignore-src -r -y
 catkin_make
