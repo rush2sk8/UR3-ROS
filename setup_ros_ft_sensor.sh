@@ -24,6 +24,9 @@ echo "source devel/setup.bash; roslaunch optoforce_etherdaq_driver  demo.launch"
 chmod +x run.sh
 rm -rf ./src/etherdaq_ros/.git
 
+echo "(./run.sh > /dev/null)&" > run_in_background.sh
+chmod +x run_in_background.sh
+
 #make sure the new directory isnt pushed to git 
 cd ..
 echo $dir_name/ >> .gitignore
