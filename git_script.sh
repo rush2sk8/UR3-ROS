@@ -8,5 +8,4 @@ if [ $# -eq 0 ]
   else
     git commit -m $0
 fi 
-
 git push
