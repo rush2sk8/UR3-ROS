@@ -1,4 +1,5 @@
 #!/bin/bash
+git pull
 git add .  
 if [ $# -eq 0 ]
   then
