@@ -23,6 +23,12 @@ echo "$(tput setaf 2)Enter the Robot's IP Address:$(tput sgr0)"
 read -p "" robot_ip
 echo "source devel/setup.bash;roslaunch src/universal_robot/ur_modern_driver/launch/ur3_bringup.launch robot_ip:=$robot_ip" >> run_server.sh
 
+#create move
+touch move_robot.sh
+chmod +x move_robot.sh
+echo "$(tput setaf 2)Don't forget to start the server!!!$(tput sgr0)" > move_robot.sh
+echo "rosrun ur_driver test_move.py $robot_ip" >> move_robot.sh
+
 #dont add it to git
 cd ..
 echo $dir_name/ >> .gitignore
