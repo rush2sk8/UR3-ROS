@@ -17,11 +17,11 @@ catkin_make
 source devel/setup.bash
 
 #create run 
-touch run.sh
-chmod +x run.sh
+touch run_server.sh
+chmod +x run_server.sh
 echo "$(tput setaf 2)Enter the Robot's IP Address:$(tput sgr0)"
 read -p "" robot_ip
-echo "source devel/setup.bash;roslaunch src/universal_robot/ur_modern_driver/launch/ur3_bringup.launch robot_ip:=$robot_ip" >> run.sh
+echo "source devel/setup.bash;roslaunch src/universal_robot/ur_modern_driver/launch/ur3_bringup.launch robot_ip:=$robot_ip" >> run_server.sh
 
 #dont add it to git
 cd ..
