@@ -27,6 +27,7 @@ echo "source devel/setup.bash;roslaunch src/universal_robot/ur_modern_driver/lau
 touch move_robot.sh
 chmod +x move_robot.sh
 echo "echo \"$(tput setaf 1)Don't forget to start the server!!!$(tput sgr0)\"" > move_robot.sh
+echo "source devel/setup.bash" >> move_robot.sh
 echo "rosrun ur_driver test_move.py $robot_ip" >> move_robot.sh
 
 #dont add it to git
